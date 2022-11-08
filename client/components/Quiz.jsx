@@ -12,15 +12,16 @@ export default function Quiz() {
   return (
     <div className={styles.container}>
       <h1>Quiz!</h1>
-      <div>
-        {quizContent.map((question) => {
-          return (
-            <div key={question.id}>
-              <p>{question.question}</p>
-              <p>{question.answer}</p>
-            </div>
-          )
-        })}
+      <h2>Current Score</h2>
+      <div className={styles.questionCard}>
+        <h2>Question X out of 5</h2>
+        <h3 className={styles.questionText}>The Question is</h3>
+        <ul>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+        </ul>
       </div>
     </div>
   )

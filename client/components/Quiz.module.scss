@@ -1,0 +1,34 @@
+.container {
+  text-align: center;
+}
+
+.questionCard {
+  margin: 0 auto;
+
+  background-color: gray;
+  padding: 3%;
+  border-radius: 16px;
+  color: azure;
+  box-shadow: rgba(50, 50, 93, 0.25);
+
+  width: 80%;
+  height: auto;
+}
+
+.questionText {
+  color: darkblue;
+  font-size: 24px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  background-color: darkgray;
+  padding: 3%;
+  border: 3px solid white;
+  border-radius: 20px;
+  font-size: 20px;
+  margin-top: 2%;
+}

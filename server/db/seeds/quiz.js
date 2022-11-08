@@ -20,5 +20,10 @@ exports.seed = async (knex) => {
         { id: 3, option: 'Working', isCorrect: false },
       ],
     },
+    {
+      id: 2,
+      question: 'Test',
+      options: 'hi',
+    },
   ])
 }
